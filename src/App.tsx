@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa'
 
 function App() {
   const year = new Date().getFullYear();
@@ -38,7 +39,7 @@ function App() {
 
       {/* Features Section */}
       <section className="container mx-auto px-6 py-20">
-        <h2 className="text-4xl font-bold text-center mb-12">Why Choose Writeopia? - Future Features</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">Why Choose Writeopia?</h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-gray-800 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">AI-Powered Writing</h3>
@@ -76,7 +77,30 @@ function App() {
           </a>
         </div>
       </section>
-      
+
+      {/* Contact Section */}
+      <section className="container mx-auto px-6 py-20">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
+          <div className="bg-gray-800 rounded-lg p-8">
+            <div className="flex items-center justify-center mb-4">
+              <FaMapMarkerAlt className="text-blue-500 text-2xl mr-2" />
+              <h3 className="text-xl font-semibold">Taipus Code</h3>
+            </div>
+            <address className="text-gray-300 not-italic mb-6">
+              <p>Rua Francisco Deslandes, 648, apto 1103</p>
+              <p>Belo Horizonte, MG 30310-530</p>
+              <p>Brazil</p>
+            </address>
+            <div className="flex items-center justify-center">
+              <FaEnvelope className="text-blue-500 text-2xl mr-2" />
+              <a href="mailto:leandro@taipuscode.com" className="text-gray-300 hover:text-white transition duration-300">
+                leandro@taipuscode.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="container mx-auto px-6 py-8 text-center text-gray-400">
