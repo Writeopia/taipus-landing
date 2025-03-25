@@ -92,11 +92,19 @@ function App() {
               <p>Belo Horizonte, MG 30310-530</p>
               <p>Brazil</p>
             </address>
-            <div className="flex items-center justify-center">
-              <FaEnvelope className="text-blue-500 text-2xl mr-2" />
-              <a href="mailto:leandro@taipuscode.com" className="text-gray-300 hover:text-white transition duration-300">
-                leandro@taipuscode.com
-              </a>
+            <div className="space-y-4">
+              <div className="flex items-center justify-center">
+                <FaEnvelope className="text-blue-500 text-2xl mr-2" />
+                <a href="mailto:hello@taipuscode.com" className="text-gray-300 hover:text-white transition duration-300">
+                  hello@taipuscode.com
+                </a>
+              </div>
+              <div className="flex items-center justify-center">
+                <FaEnvelope className="text-blue-500 text-2xl mr-2" />
+                <a href="mailto:hello@writeopia.io" className="text-gray-300 hover:text-white transition duration-300">
+                  hello@writeopia.io
+                </a>
+              </div>
             </div>
           </div>
         </div>
